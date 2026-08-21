@@ -3,12 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
   header{
     height: 25px;
     background-color: rgb(1, 23, 39);
     color:white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
        
   }
   header p{
